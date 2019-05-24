@@ -1,7 +1,5 @@
 package com.example.jstore_android_wito;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class Supplier {
     private int id;

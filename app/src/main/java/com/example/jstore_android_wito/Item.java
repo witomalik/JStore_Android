@@ -7,7 +7,7 @@ public class Item {
     private String category;
     private String status;
     private Supplier supplier;
-    public Item(int id, String name, String status, int price, Supplier supplier, String category)
+    public Item(int id, String name, int price, String category, String status, Supplier supplier)
     {
         // initialise instance variables
         setId(id);

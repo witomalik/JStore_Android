@@ -42,6 +42,7 @@ public class RegisterActivity extends AppCompatActivity {
                             if (jsonResponse != null){
                                 AlertDialog.Builder builder = new AlertDialog.Builder(RegisterActivity.this);
                                 builder.setMessage("Register Success!").create().show();
+                                finish();
                             }
                         }
                         catch (JSONException e){
